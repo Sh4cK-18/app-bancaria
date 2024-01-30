@@ -1,0 +1,277 @@
+.logo_nav {
+    width: 150px;
+    height: auto;
+
+}
+
+.dash_nav {
+    display: flex;
+}
+
+.btn_perfil {
+    background-color: transparent;
+    border: none;
+    margin-left: 250px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+
+}
+
+.btn_contac {
+    background-color: transparent;
+    border: none;
+    margin-left: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+}
+
+.btn_emer {
+    background-color: #00ABEB;
+    border: none;
+    color: white;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.material-symbols-outlined {
+    
+}
+
+
+.btn_cerrar {
+    background-color: transparent;
+    border: none;
+    margin-left: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+.h1_nombre {
+    margin-left: 40px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.h3_correo {
+    margin-left: 520px;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.seg_lay {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    height: 60px;
+}
+
+
+
+
+.ter_lay {
+    
+    display: flex;
+    background-color: black;
+    height: 40px;
+}
+
+.btn_tlaylogo {
+    margin-left: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.btn_tlaypro {
+    margin-left: 160px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn_tlaytrans {
+    margin-left: 120px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn_tlaypag {
+    margin-left: 120px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn_tlayinver {
+    margin-left: 120px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn_tlayofertas {
+    margin-left: 100px;
+    background-color: #00ABEB;
+    color: black;
+    height: auto;
+    width: 150px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ofertas_cant {
+    margin-left: -25px;
+    margin-top: 10px;
+    
+    border: 2px;
+    border-radius: 50%;
+    font-size: 8px;
+    height: 20px;
+    background-color: black;
+    color: white;
+
+}
+
+
+.container_products {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.c_corriente {
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cc_nombre {
+
+    font-family: Poppins;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.cc_numero {
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+.cc_btn {
+    width: 50%;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.t_credito {
+    margin-left: 100px;
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tc_nombre {
+    font-family: Poppins;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.tc_numero {
+    font-family: Poppins;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.tc_btn {
+    width: 50%;
+    height: 40px;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+
+}
