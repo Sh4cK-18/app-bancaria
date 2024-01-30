@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo_nav {
+    width: 150px;
+    height: auto;
+    margin-left: 1%;
+}
+
+.dash_nav {
+    display: flex;
+    margin-top:1%;
+}
+
+.btn_perfil {
+    background-color: transparent;
+    border: none;
+    margin-left: 220px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+}
+
+.btn_contac {
+    background-color: transparent;
+    border: none;
+    margin-left: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+}
+
+.btn_emer {
+    display: flex;
+    background-color: #00ABEB;
+    border: none;
+    color: white;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn_emer .txtemer{
+    margin-bottom: -5%;
+}
+.btn_emer .material-symbols-outlined{
+    margin-bottom: -4%;
+    align-items: end;
+    justify-items: center;
+}
+.btn_emer .ddemer{
+    margin-bottom: -4%;
+    align-items: end;
+    justify-items: center;
+}
+.btn_cerrar {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    margin-left: 100px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn_cerrar .txtcerrar{
+    margin-bottom: -5%;
+}
+.btn_cerrar .material-symbols-outlined{
+    margin-bottom: -5%;
+    margin-left: 10px;
+    align-items: end;
+    justify-items: center;
+}
+#content-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+ 
+#saludo {
+    font-size: 20px;
+}
+#content-two {
+    background-color: black;
+    width: 98%;
+    margin: 8px;
+    height: 40px;
+}
+ 
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin: 4px;
+}
+ 
+#btn-options {
+    background-color: black;
+}
+ 
+.value-options {
+    text-decoration: none;
+    color: white;
+}
+ 
+#btn-ofertas {
+    background-color: #00ABEB;
+    width: 120px;
+    border: 1px ;
+    height: 28px;
+    text-align: center;
+}
+ 
+#numerito {
+    width: 15px;
+    height: 15px;
+}
+.titlediv{
+    margin-left: 20%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.tablas{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.tabla1{
+    width: 100%;
+    border: black 2px solid;
+}
+.tabla1 .tbody1{
+    width: 100%;
+}
+.tabla1 .tbody1 tr{
+    width: 100%;
+}
+.tabla1 .tbody1 td{
+    text-align: center;
+    margin-left: 10%;   
+}
+.tabla1 .tbody1 .t1inicio1{
+    float: left ;
+    margin-left: 20%;
+}
+.tabla1 .tbody1 .t1inicio2{
+    float: left ;
+    margin-left: 20%;
+}
+.tabla2{
+    width: 100%;  
+    border: black 2px solid;
+    border-top: transparent 0px solid;
+}
+
+.tabla2 td{
+    text-align: center;
+}
+
+.tabla2 .t2inicio1{
+    float: left ;
+    margin-left: 20%;
+}
+.tabla2 .t2inicio2{
+    float: left ;
+    margin-left: 20%;
+}
