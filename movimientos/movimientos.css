@@ -189,23 +189,21 @@ margin: 25px;
 }
 
 
-#text-limpiar {
-    color:black;
-    margin-top: 40px;
-    background-color: transparent;
-    border: 0px;
-}
-
-#text-limpiar:hover{
-    cursor: pointer;
-}
 
 #text-icon-clean {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     flex-direction: row;
-    gap: 10px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 0px;
+    column-gap: 5px;
+}
+
+#text-icon-clean:hover {
+    cursor: pointer;
 }
 
 .container-table {
