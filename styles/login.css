@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body {
+    width: 1280px;
+    height: 832px;
+    background: #FFF;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container {
+    background: #00ABEB;
+    width: 334px;
+    height: 832px;
+    flex-shrink: 0;
+    flex-direction: column;
+}
+
+.form{
+    margin-top:50px ;
+    margin-left: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.abajo{
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 334px;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+
+
+h1 {
+    align-self: stretch;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+h2{
+    align-self: stretch;
+    color: #00ABEB;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+
+}
+
+
+.login-button{
+    border-radius: 32px;
+    background: #000;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+}
+
+
+.new-user{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+}
+.no-account {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+}
+
+
+.login-form {
+    
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+input[type="email"],  
+input[type="text"] {
+    width: 100%;
+padding: 10px;
+justify-content: space-between;
+border-radius: 4px;
+background: #E7E7E7;
+}
+
+.problem-account {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.problem-account a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
