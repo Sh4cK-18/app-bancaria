@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo_nav {
+    width: 150px;
+    height: auto;
+ 
+}
+ 
+.dash_nav {
+    display: flex;
+}
+ 
+.btn_perfil {
+    background-color: transparent;
+    border: none;
+    margin-left: 400px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+ 
+}
+ 
+.btn_contac {
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    color: black;
+}
+ 
+.btn_emer {
+    background-color: #00ABEB;
+    border: none;
+    color: white;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+ 
+ 
+ 
+ 
+.btn_cerrar {
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ESTILOS DEL CONTENIDO DE LA PANTALLA*/
+
+#content-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#saludo {
+    font-size: 20px;
+}
+
+#content-two {
+    background-color: black;
+    width: 98%;
+    margin: 8px;
+    height: 40px;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin: 4px;
+}
+
+#btn-options {
+    background-color: black;
+}
+
+.value-options {
+    text-decoration: none;
+    color: white;
+}
+
+#btn-ofertas {
+    background-color: #00ABEB;
+    width: 120px;
+    border: 1px ;
+    height: 28px;
+    text-align: center;
+}
+
+#numerito {
+    width: 15px;
+    height: 15px;
+}
+
+.container-accounts {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+
+.btn-cuentas {
+    background-color: transparent;
+    border: 0px;
+    font-size: 21px;
+    transition: transform 0.3s ease;
+    width: 100%;
+}
+
+.btn-cuentas:hover{
+    transform: translateY(-10px);
+    border-bottom: 3px solid #00ABEB;
+    cursor: pointer;
+}
+
+#section-four {
+margin: 25px;
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+#bs-mes {
+    color: #00ABEB
+}
+
+.text-search {
+    font-size: 13px;
+}
+
+#input-mes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#btn-search-mes {
+    background-color: transparent;
+    border: 2px solid grey;
+    padding:  2px;
+    width: 200px;
+    height: 50px;
+}
+
+#input-fecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#date {
+    width: 200px;
+    height: 45px;
+    padding: 2px;
+    border: 2px solid grey
+}
+
+
+#text-limpiar {
+    color:black;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 0px;
+}
+
+#text-limpiar:hover{
+    cursor: pointer;
+}
+
+#text-icon-clean {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container-table {
+ display: flex;
+ align-items: center;
+ justify-content: center;   
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+}
+
+tbody td{
+    text-align: center;
+    padding: 15px;
+    font-weight: 300px;
+}
+
