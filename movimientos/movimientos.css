@@ -269,7 +269,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 #date {
     background-image: url(../assets/Icon_calendar.png);
-    background-size: 20px 20px;
+    background-size: 25px 25px;
     background-position: right;
     background-repeat: no-repeat;
     padding-right: 25px;
