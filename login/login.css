@@ -1,139 +1,161 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-body {
+.seccion_principal {
     width: 100%;
-    margin: 0;
-    background: #FFF;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: minmax(100px, auto);
+    background-color: white;
+    height: 100%;
+    display: flex;
+
 }
 
-.container {
-    background: #00ABEB;
-    grid-column: 1;
-    display: grid;
-    grid-template-rows: repeat(14, 1fr);
-    grid-auto-columns: minmax(100px, auto);
+.titulos {
+    background-color: #00ABEB;
+    width: 25%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
-.form{
-    background: white;
-    grid-column: 2 / 6;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-columns: minmax(100px, auto);
-}
-
-.abajo{
+.abajo {
+    width: 24.6%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
     background-color: black;
-    color: white;
-    grid-row: 13 / 15;
 }
 
-.logo {
-    grid-row: 5;
-    width: 10vw;
-    margin: 1.5vw;
+.imagen_tit {
+    width: 150px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 10px;
 }
 
-
-.title {
-    align-self: stretch;
-    color: #FFF;
+.tit_izq {
     font-family: Poppins;
+    color: white;
     font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px;
-    grid-row: 6;
-    margin: 1.5vw;
+    margin-left: 10px;
+    
 }
 
-.banc {
-    grid-row: 7;
-    margin: 1.5vw;
+.sub_izq {
+    font-family: Poppins;
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
 }
 
-h2{
-    align-self: stretch;
+.frase_izq {
+    font-family: Poppins;
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.abajo_cuenta {
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-family: Poppins;
+}
+
+.abajo_reg {
+    color: #00ABEB;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: -15px;
+    font-family: Poppins;
+
+}
+
+
+
+.login {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 120px;
+
+}
+
+.inicio {
     color: #00ABEB;
     font-family: Poppins;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; 
-
+    line-height: 40px;
+    margin-left: 250px;
+    margin-top: 400px;
 }
 
-
-.login-button{
-    border-radius: 32px;
-    background: #000;
-    display: flex;
-    padding: 16px 32px;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
+.log_tit{
+    color: #000;
     font-family: Poppins;
-    font-size: 18px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 22px; 
 }
 
+.correo {
+    display: flex;
+    padding: 16px 24px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #E7E7E7;
+    width: 250px;
+    height: 20px;
+    margin-left: 250px;
 
-.new-user{
-    color: #FFF;
+}
+
+.clave {
+
+    display: flex;
+    padding: 16px 24px;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #E7E7E7;
+    width: 250px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: 10px;
+
+}
+
+.problemas{
+    color: #000;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 18px; 
-}
-.no-account {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px; 
+    margin-left: 250px;
+    font-weight: bold;
 }
 
-
-.login-form {
-    grid-row: 2;
-    grid-column: 2;
+.btn_inicio{
+    display: flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+    color: white;
+    border-radius: 32px;
+    background: #000;
+    width: 250px;
+    height: 60px;
+    margin-left: 250px;
 }
 
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 14px;
-}
-
-input[type="email"],  
-input[type="text"] {
-    width: 100%;
-padding: 10px;
-justify-content: space-between;
-border-radius: 4px;
-background: #E7E7E7;
-}
-
-.problem-account {
-    margin-bottom: 16px;
-    font-size: 14px;
-}
-
-.problem-account a {
-    color: #007bff;
+.enlace{
     text-decoration: none;
-    margin-right: 8px;
+    color: #00ABEB;
 }
 
+#idenlace{
+    text-decoration: none;
+}
