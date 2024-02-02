@@ -1,38 +1,44 @@
-<html lang="es">
-
+<!DOCTYPE html>
+<html lang="en">
+ 
 <head>
     <meta charset="UTF-8">
-    <title>Pagina de Inicio</title>
-    <link rel="stylesheet" href="login.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codigo.css">
+    <title>Inicio de sesion</title>
 </head>
-
+ 
 <body>
-    <div class="container">
-        <img src="../assets/white_logo.png" alt="logo_consultec" class="logo">
-        
-        <h1 class="title">Te damos la bienvenida al portal Personal Banking</h1>
-        <div class="banc">
-            <button class="new-user">¿Eres nuevo en el banco?</button>
-        </div>
-
-        <div class="abajo">
-            <button class="no-account">¿Aún no tienes una cuenta?</button>
-        </div>
-    </div>
-
-    <div class="form">
-        <form id="login-form" class="login-form">
-            <h2>Inicio de Sessión</h2>
-            <input type="email" id="email" name="email" value="Ingresa tu correo electrónico" required>
-            <input type="text" id="password" name="password" value="Ingresa tu clave de internet" required>
-            <div class="problem-account">
-                <a href="#">¿Tienes problemas con tu cuenta?</a>
-                <a href="#" id="recover-password">Recuperar contraseña</a>
+    <section class="seccion_principal">
+        <div class="titulos">
+            <div class="arriba">
+                <img class="imagen_tit" src="../assets/consu.png" alt="logo_consultec">
+                <h2 class="tit_izq">Te damos la Bienvenida al portal personal Banking</h2>
+                <h5 class="sub_izq">¿Eres nuevo en el banco?</h5>
+                <a id="idenlace" href="#"><h5 class="frase_izq ">Crea tu clave!</h5></a>
+                
             </div>
-            <button type="submit" class="login-button">Iniciar sesión</button>
-        </form>
-    </div>
-</body>
+            <div class="abajo">
+                <h2 class="abajo_cuenta">Aun no tienes cuenta?</h2>
+                <a id="idenlace" href="#"><h5 class="abajo_reg ">Registrate ahora</h5></a>
+                
+ 
+            </div>
+        </div>
+ 
+        <div class="login">
+ 
+            <h1 class="log_tit"><span class="inicio">Inicio de </span>Sesión</h1>
 
+             <input class="correo" id="" cols="30" rows="10" type="text"placeholder="Ingresa tu correo electronico:" >
+             <input class="clave" id="" cols="30" rows="10" type="password"placeholder="Ingresa tu clave de internet:">
+
+            <h5 class="problemas">Tienes problema con tu cuenta?<span class="contra" ><a class="enlace" href="#">Recuperar contraseña</a></span></h5>
+            <button class="btn_inicio">Iniciar Sesión</button>
+ 
+ 
+        </div>
+    </section>
+</body>
+ 
 </html>
